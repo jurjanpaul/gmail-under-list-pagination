@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Bottom Pager",
+  "version": "0.1.0",
+  "description": "Adds Newer/Older paging buttons under each Gmail email list.",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["src/content.js"],
+      "css": ["src/content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

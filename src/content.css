@@ -1,0 +1,73 @@
+.gmx-pager-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  background: transparent;
+}
+
+.gmx-pager-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  color: #5f6368;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 120ms ease;
+}
+
+.gmx-pager-btn:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.gmx-pager-btn:active {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.gmx-pager-btn:focus-visible {
+  outline: 2px solid #1a73e8;
+  outline-offset: 2px;
+}
+
+.gmx-pager-btn[aria-disabled="true"] {
+  color: rgba(95, 99, 104, 0.35);
+  cursor: default;
+  pointer-events: none;
+}
+
+.gmx-pager-btn[aria-disabled="true"]:hover {
+  background-color: transparent;
+}
+
+.gmx-pager-count {
+  color: #5f6368;
+  font-size: 12px;
+  margin-right: 8px;
+  user-select: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .gmx-pager-footer {
+    border-top-color: rgba(255, 255, 255, 0.08);
+  }
+  .gmx-pager-btn {
+    color: #bdc1c6;
+  }
+  .gmx-pager-btn:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+  }
+  .gmx-pager-btn[aria-disabled="true"] {
+    color: rgba(189, 193, 198, 0.35);
+  }
+  .gmx-pager-count {
+    color: #bdc1c6;
+  }
+}
