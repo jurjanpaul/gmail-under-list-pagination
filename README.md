@@ -4,7 +4,7 @@ Adds working **Newer** / **Older** paging buttons under every Gmail email list â
 
 ## Install
 
-(For the moment this extension can not be installed from the Chrome Web Store (yet); to make that happen would be quite a bit more work in comparison to the work I've put in so far.)
+(For the moment this extension can not be installed from the Chrome Web Store; to make that happen would be quite a bit more work in comparison to the little work I've put in so far.)
 
 1. Clone this repository.
 2. Open `chrome://extensions/` in Chrome / Brave / ?.
