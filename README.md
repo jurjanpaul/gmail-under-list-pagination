@@ -29,7 +29,7 @@ For the sake of completenesss: of course this extension does not read your e-mai
 
 ## Coding Agent Disclaimer
 
-Claude Code wrote all code.
+Claude Code wrote the code.
 (In this case I clearly cared more about outcome than about the code itself.)
-I have tested that it works for me and have scanned the code to see that I understand enough of the approach and nothing undesirable is going on.
+I have tested that it works for me and have scanned the code to see that I understand enough of the approach and that nothing undesirable is going on.
 I actively use it (although I would prefer infinite scrolling for an improved user experience).
