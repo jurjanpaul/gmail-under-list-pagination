@@ -9,7 +9,7 @@ Adds working **Newer** / **Older** paging buttons under every Gmail email list â
 1. Clone this repository.
 2. Open `chrome://extensions/` in Chrome / Brave / ?.
 3. Enable **Developer mode** (top-right toggle).
-4. Click **Load unpacked** and select this directory.
+4. Click **Load unpacked** and select the repository directory.
 5. Open Gmail (`https://mail.google.com/`). Pagination info and buttons should appear under each list.
 
 After editing source files, click the **reload** icon for the extension card and reload the Gmail tab.
@@ -25,7 +25,7 @@ If Gmail is in another language, no footer is injected. Add the locale to `LOCAL
 
 ## Privacy
 
-For the sake of completenesss: of course this extension does not read your e-mail messages. :-)
+For the sake of completenesss: of course this extension does not read your e-mail messages.
 
 ## Coding Agent Disclaimer
 
