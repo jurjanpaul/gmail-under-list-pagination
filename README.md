@@ -1,6 +1,6 @@
 # Gmail Under List Pagination
 
-Adds working **Newer** / **Older** paging buttons under every Gmail email list — including each pane when Gmail's "Multiple inboxes" feature is enabled.
+Adds **Older** and **Newer** paging buttons **under** every Gmail email list — including each pane when Gmail's "Multiple inboxes" feature is enabled.
 
 ## Install
 
